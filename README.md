@@ -8,7 +8,7 @@ ToDo List feita com Javascript (Node.JS) / EJS <br>
 O aplicativo tem como objetivo ser útil ao dia a dia do usuário, tendo um fácil controle dos seus afazeres do dia com uma interface simples e intuitiva <br>
 
 #Como utilizar <br>
-*Atualmente esse aplicativo só está hospedado no localhost, então o usuário deve ter o Node.JS instalado no seu computador. <br>
+*Atualmente esse aplicativo só está hospedado no localhost, então o usuário deve ter o Node.JS instalado no seu computador <br>
 -Abra o seu terminal na pasta do aplicativo <br>
 -Digite "node app.js" <br>
 -Abra o seu navegador e coloque o link: "localhost:3000" <br>
