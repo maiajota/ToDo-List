@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+:root{
+    --title-font: 'Montserrat', sans-serif;
+    --text-font: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html{
+    background: rgb(2,48,71);
+background: linear-gradient(to right, rgba(2,48,71,1) 0%, rgba(29,53,87,1) 91%);
+  min-height: 1000px;
+    min-height: 100vh;
+    font-family: var(--text-font);
+}
+
+.header{
+    font-family: var(--title-font);
+    text-align: center;
+    background-color: #e63946;border-radius: 4px;
+    color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    font-size: 1.1rem;
+}
+
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.item:last-child{
+    border-bottom: none;
+}
+
+input:checked+p{
+    text-decoration: line-through;
+    text-decoration-color: #e63946;
+}
+
+input[type="checkbox"]{
+    margin: 20px;
+}
+
+.item p{
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+form{
+    text-align: center;
+    margin-left: 20px;
+}
+
+button{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    top: 10px;
+    border-color: transparent;
+    background-color: #e63946;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #e63946;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+
+footer {
+    color: #f1f1f1;
+    text-align: center;
+  }
+  
