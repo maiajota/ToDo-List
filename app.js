@@ -1,5 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const date = require(__dirname + '/date.js')
 
 const app = express()
 
@@ -11,16 +12,8 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static('public'))
 
 app.get('/', (req, res)=>{
-    var calendar = new Date()
 
-    var options = {
-        weekday: 'long',
-        day: 'numeric',
-        month: 'long',
-
-    }
-
-    var day = calendar.toLocaleDateString("en-US", options)
+    let day = date()
     
     res.render('list', {listTitle: day, newListItems: items})
 })
