@@ -1,17 +1,56 @@
-# ToDo-List
-ToDo List feita com Javascript (Node.JS) / EJS <br>
 
->Aplicativo finalizado✔️ <br>
->Deixarei o código mais limpo em breve <br>
+# ToDo List
 
-#Objetivo do app <br>
-O aplicativo tem como objetivo ser útil ao dia a dia do usuário, tendo um fácil controle dos seus afazeres do dia com uma interface simples e intuitiva <br>
+Uma simples e intuitiva lista de tarefas diárias 
 
-#Como utilizar <br>
-*Atualmente esse aplicativo só está hospedado no localhost, então o usuário deve ter o Node.JS instalado no seu computador <br>
--Abra o seu terminal na pasta do aplicativo <br>
--Digite "node app.js" <br>
--Abra o seu navegador e coloque o link: "localhost:3000" <br>
 
-![Screenshot_1](https://user-images.githubusercontent.com/85450778/205175797-1ba175ab-4d97-4aed-9853-85a51993f885.png)
-![Screenshot_2](https://user-images.githubusercontent.com/85450778/205175805-f4ebcc02-c795-4165-843c-610062858fdc.png)
+## Rodar localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/maiajota/ToDo-List
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd todolist
+```
+
+Instale as dependências
+
+```bash
+  npm install body-parser ejs express mongoose
+```
+
+Inicie o servidor
+
+```bash
+  node app.js
+```
+
+Rode o banco de dados em outro terminal
+
+```bash
+  mongod
+```
+
+
+## Host
+
+O aplicativo também está hosteado no link abaixo:
+
+ https://todolist-u7ub.onrender.com/
+
+
+
+## Stack utilizada
+
+**Front-end:** EJS
+
+**Back-end:** Node, Express
+
+
+![Screenshot_1](https://user-images.githubusercontent.com/85450778/218581616-02aabcfe-ed0a-4bf6-80c8-689abc706f03.png)
+
