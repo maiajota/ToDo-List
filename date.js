@@ -1,4 +1,7 @@
-exports =  function() {
+module.exports = getDate
+
+
+function getDate() {
     const calendar = new Date()
 
     const options = {
@@ -11,3 +14,4 @@ exports =  function() {
     return calendar.toLocaleDateString("en-US", options)
 
 }
+
