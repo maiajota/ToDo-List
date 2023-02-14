@@ -12,7 +12,7 @@ app.use(express.static('public'))
 
 //!MONGOOSE CONNECTION
 mongoose.set('strictQuery', false)
-mongoose.connect('mongodb+srv://MaiaJota:admin123@cluster0.l7ut46v.mongodb.net/todo-listDB', {useNewUrlParser: true})
+mongoose.connect('mongodb://127.0.0.1:27017/todo-listDB', {useNewUrlParser: true})
 
 const itemsSchema = new mongoose.Schema({
     name: String,
