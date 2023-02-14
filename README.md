@@ -36,15 +36,6 @@ Rode o banco de dados em outro terminal
   mongod
 ```
 
-
-## Host
-
-O aplicativo também está hosteado no link abaixo:
-
- https://todolist-u7ub.onrender.com/
-
-
-
 ## Stack utilizada
 
 **Front-end:** EJS
